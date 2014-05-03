@@ -10,8 +10,6 @@ quadra_avg = 0
 ec_type = 0
 new_arith_avg = 0
 
-/* Le grep c'est pas bien, j'espère que vous serez sanctionné ! */
-
 def             standard_deviation(user_input):
     res = (((pow(ec_type, 2) + pow(arith_avg, 2)) * nbr_mesures) + pow(user_input, 2)) / (nbr_mesures + 1)
     res = res - pow(new_arith_avg, 2)
