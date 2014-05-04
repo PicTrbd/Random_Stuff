@@ -48,11 +48,11 @@ def             exec_prog(user_input):
 
 def             init():
     if nbr_mesures <= 0 or arith_avg <= 0 or harmo_avg <= 0 or ec_type <= 0:
-        print "Error : all the parameters must be > 0"
+        print("Error : all the parameters must be > 0")
         return 0
     end_loop = 0
     while end_loop == 0:
-        user_input = raw_input("indtast din vaerdi : ")
+        user_input = input("indtast din vaerdi : ")
         if user_input == 'ende':
             end_loop = 1
         elif user_input.isdigit() == True:
@@ -61,15 +61,15 @@ def             init():
     return 0
 
 def             main():
-    if len(sys.argv) != 5:
-        print "Wrong number of parameters."
+        if len(sys.argv) != 5:
+                print("Wrong number of parameters.")
+                return 0
+        global nbr_mesures, arith_avg, harmo_avg, ec_type
+        nbr_mesures = float(sys.argv[1])
+        arith_avg = float(sys.argv[2])
+        harmo_avg = float(sys.argv[3])
+        ec_type = float(sys.argv[4])
+        init()
         return 0
-    global nbr_mesures, arith_avg, harmo_avg, ec_type
-    nbr_mesures = float(sys.argv[1])
-    arith_avg = float(sys.argv[2])
-    harmo_avg = float(sys.argv[3])
-    ec_type = float(sys.argv[4])
-    init()
-    return 0
     
 main()
