@@ -51,8 +51,8 @@ def             init(values):
 
 def             main():
         if len(sys.argv) != 5:
-                print("Forkert antal parametre.\nMauvais nombre de paramètres.")
-                return 0
+            print("Forkert antal parametre.\nMauvais nombre de paramètres.")
+            return 0
         values = class_test.Values()
         values.chooseLangage()
         values.setValues(float(sys.argv[1]), float(sys.argv[2]), float(sys.argv[3]), float(sys.argv[4]))
