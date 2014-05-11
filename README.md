@@ -7,7 +7,7 @@ Pictar
 
 ____
 
-These are random stuffs I'm doing, sometimes for fun, sometimes for school projects. Copy pasterino these projects won't help your and can only bring you problems.
+These are random stuffs I'm doing, sometimes for fun, sometimes for school projects. Copy pasterino these projects won't help you and can only bring you problems.
 
 Regards, 
 
